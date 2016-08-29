@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46167AC81D73D5B000FE815F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46167AC71D73D5B000FE815F /* AppDelegate.m */; };
+		46167ACB1D73D5B000FE815F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46167ACA1D73D5B000FE815F /* main.m */; };
+		46167ACD1D73D5B000FE815F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46167ACC1D73D5B000FE815F /* Assets.xcassets */; };
+		46167AD01D73D5B000FE815F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46167ACE1D73D5B000FE815F /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46167AC31D73D5B000FE815F /* OS X Highlight Color Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OS X Highlight Color Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46167AC61D73D5B000FE815F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46167AC71D73D5B000FE815F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46167ACA1D73D5B000FE815F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46167ACC1D73D5B000FE815F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46167ACF1D73D5B000FE815F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		46167AD11D73D5B000FE815F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46167AC01D73D5B000FE815F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46167ABA1D73D5AF00FE815F = {
+			isa = PBXGroup;
+			children = (
+				46167AC51D73D5B000FE815F /* OS X Highlight Color Explorer */,
+				46167AC41D73D5B000FE815F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46167AC41D73D5B000FE815F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46167AC31D73D5B000FE815F /* OS X Highlight Color Explorer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46167AC51D73D5B000FE815F /* OS X Highlight Color Explorer */ = {
+			isa = PBXGroup;
+			children = (
+				46167AC61D73D5B000FE815F /* AppDelegate.h */,
+				46167AC71D73D5B000FE815F /* AppDelegate.m */,
+				46167ACC1D73D5B000FE815F /* Assets.xcassets */,
+				46167ACE1D73D5B000FE815F /* MainMenu.xib */,
+				46167AD11D73D5B000FE815F /* Info.plist */,
+				46167AC91D73D5B000FE815F /* Supporting Files */,
+			);
+			path = "OS X Highlight Color Explorer";
+			sourceTree = "<group>";
+		};
+		46167AC91D73D5B000FE815F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46167ACA1D73D5B000FE815F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46167AC21D73D5B000FE815F /* OS X Highlight Color Explorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46167AD41D73D5B000FE815F /* Build configuration list for PBXNativeTarget "OS X Highlight Color Explorer" */;
+			buildPhases = (
+				46167ABF1D73D5B000FE815F /* Sources */,
+				46167AC01D73D5B000FE815F /* Frameworks */,
+				46167AC11D73D5B000FE815F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OS X Highlight Color Explorer";
+			productName = "OS X Highlight Color Explorer";
+			productReference = 46167AC31D73D5B000FE815F /* OS X Highlight Color Explorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46167ABB1D73D5AF00FE815F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = alphahw;
+				TargetAttributes = {
+					46167AC21D73D5B000FE815F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 46167ABE1D73D5B000FE815F /* Build configuration list for PBXProject "OS X Highlight Color Explorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46167ABA1D73D5AF00FE815F;
+			productRefGroup = 46167AC41D73D5B000FE815F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46167AC21D73D5B000FE815F /* OS X Highlight Color Explorer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46167AC11D73D5B000FE815F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46167ACD1D73D5B000FE815F /* Assets.xcassets in Resources */,
+				46167AD01D73D5B000FE815F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46167ABF1D73D5B000FE815F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46167ACB1D73D5B000FE815F /* main.m in Sources */,
+				46167AC81D73D5B000FE815F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46167ACE1D73D5B000FE815F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46167ACF1D73D5B000FE815F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46167AD21D73D5B000FE815F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		46167AD31D73D5B000FE815F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		46167AD51D73D5B000FE815F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OS X Highlight Color Explorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.alphahw.OS-X-Highlight-Color-Explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46167AD61D73D5B000FE815F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OS X Highlight Color Explorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.alphahw.OS-X-Highlight-Color-Explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46167ABE1D73D5B000FE815F /* Build configuration list for PBXProject "OS X Highlight Color Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46167AD21D73D5B000FE815F /* Debug */,
+				46167AD31D73D5B000FE815F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46167AD41D73D5B000FE815F /* Build configuration list for PBXNativeTarget "OS X Highlight Color Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46167AD51D73D5B000FE815F /* Debug */,
+				46167AD61D73D5B000FE815F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46167ABB1D73D5AF00FE815F /* Project object */;
+}
